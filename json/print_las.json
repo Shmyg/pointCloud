@@ -1,0 +1,11 @@
+[
+    {
+        "type":"readers.las",
+        "filename":"data/output.las",
+	"extra_dims":"TestDim=uint32"
+    },
+    {
+        "type":"writers.las",
+        "filename":"outputfile.las"
+    }
+]

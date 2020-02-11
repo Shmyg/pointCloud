@@ -1,0 +1,19 @@
+[
+    {
+        "type":"readers.las",
+        "filename":"../data/input.las"
+    },
+    {
+        "type":"filters.python",
+        "script":"../python/apply_filter.py",
+        "function":"apply_filter",
+        "module":"anything"
+    },
+    {
+        "type":"writers.las",
+        "filename":"../data/output.las",
+	"forward":"all",
+	"extra_dims":"all"
+    }
+]
+

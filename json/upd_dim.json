@@ -1,0 +1,22 @@
+[
+    {
+        "type":"readers.las",
+        "filename":"data/output.las",
+	"extra_dims":"TestDim=uint32"
+    },
+    {
+	"type":"filters.range",
+	"limits":"TestDim[77:77]"
+    },
+    {
+	"type":"filters.assign",
+	"assignment":"Classification[:]=77"
+    },
+    {
+        "type":"writers.las",
+        "filename":"data/output2.las",
+	"forward":"all",
+	"extra_dims":"all"
+    }
+]
+

@@ -1,0 +1,11 @@
+[
+    {
+          "type": "readers.las",
+          "filename": "data/input.las"
+    },
+    {
+          "type": "filters.range",
+          "limits": "X[496400:496401]"
+    },
+    "data/output.las"
+]

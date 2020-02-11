@@ -1,0 +1,15 @@
+[
+    {
+          "type": "readers.las",
+          "filename": "data/interesting.las"
+    },
+    {
+          "type": "filters.ferry",
+          "dimensions": "=>Shmyg"
+    },
+    {
+          "type": "filters.assign",
+          "assignment": "Shmyg[:]=2"
+    },
+    "data/outpur.las"
+]

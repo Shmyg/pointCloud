@@ -1,0 +1,21 @@
+[
+    {
+        "type":"readers.las",
+        "filename":"data/interesting.las"
+    },
+    {
+	"type":"filters.ferry",
+	"dimensions":"Classification=>TestDim"
+    },
+    {
+	"type":"filters.assign",
+	"assignment":"TestDim[:]=77"
+    },
+    {
+        "type":"writers.las",
+        "filename":"data/output.las",
+	"forward":"all",
+	"extra_dims":"all"
+    }
+]
+
