@@ -1,0 +1,19 @@
+[
+    {
+        "type":"readers.las",
+        "filename":"../data/interesting.las"
+    },
+    {
+        "type":"filters.python",
+        "script":"../python/ApplyCommandHistory.py",
+        "function":"apply_command_history",
+        "module":"anything"
+    },
+    {
+        "type":"writers.las",
+        "filename":"../data/output.las",
+	"forward":"all",
+	"extra_dims":"all"
+    }
+]
+
